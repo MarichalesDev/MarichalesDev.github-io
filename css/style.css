@@ -1,0 +1,210 @@
+.navbar {
+    background: #fff;
+}
+
+.navbar-brand{
+  color:#0b4665;
+}
+
+.about-us{
+  background-color:#0B4565 ;
+}
+
+#myVideo {
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.nav-pills .nav-link {
+   font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .nav-pills .nav-link {
+      padding: .4rem;
+    }
+
+    .card-1,.card-2{
+      width: auto;
+    }
+
+  .header{
+        padding-top: 2%;
+    }
+    .hero{
+      padding-top:52%
+    }
+  .popular{
+    margin-top: 16%;
+  }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .popular{
+      margin-top: 27%;
+    }
+    .sec,.our-t{
+      height: 40vh;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .popular{
+      margin-top: 20%;
+    }
+    .sec,.our-t{
+      height: 40vh;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .popular{
+      margin-top: 8%;
+    }
+   
+  }
+  
+
+  @media (min-width: 768px) {
+
+  .header{
+      padding-top: 2%;
+  }
+  
+  .hero{
+    padding-top:17%
+  }
+
+
+}
+
+.testimonial-card .card-up {
+  height: 100px;
+  overflow: hidden;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.aqua-gradient {
+  background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
+}
+
+.testimonial-card .avatar {
+  width: 90px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+/*.our-team .col-md-3{
+  width: 20%;
+}*/
+
+
+.popular{
+ 
+  text-align: -webkit-center
+}
+
+.sec{
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 70, 101, 0.5)), url("/img/BACKGROUND\ BENEFITS.jpg") center/cover no-repeat;
+  
+}
+
+.card-1{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 70, 101, 0.5)), url("/img/IMAGE\ \ CATEGORY\ ADMINISTRATION.jpg") center/cover no-repeat;
+}
+
+.card-2{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 70, 101, 0.5)), url("/img/IMAGE\ \ CATEGORY\ ACCOUNTING.jpg") center/cover no-repeat;
+}
+
+.card-3{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 70, 101, 0.5)), url("/img/IMAGE\ \ CATEGORY\ ARCHITECTURE.jpg") center/cover no-repeat;
+}
+
+.card-4{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 70, 101, 0.5)), url("/img/IMAGE\ \ CATEGORY\ MATHEMATICS.jpg") center/cover no-repeat;
+}
+
+.card-5{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 70, 101, 0.5)), url("/img/IMAGE\ \ CATEGORY\ PROGRAMMING.jpg") center/cover no-repeat;
+}
+
+.card-6{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 70, 101, 0.5)), url("/img/IMAGE\ \ CATEGORY\ BIOLOGY.jpg") center/cover no-repeat;
+}
+
+.card-up{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 70, 101, 0.5)), url("/img/IMAGE\ BACKGROUND\ CARD\ TEAM\ \ \(1\).jpg") center/cover no-repeat;
+}
+
+.bg-img-testimonial{
+  background-image:
+  linear-gradient( rgba(245, 246, 252, 0.52), rgba(5, 0, 78, 0.70)),
+  url('/img/IMAGE\ \ CATEGORY\ ARCHITECTURE.jpg');
+  width: 86%;
+  height: 45vh;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+.bg-img{
+  mask-image: linear-gradient( rgba(195, 195, 195, 0.90), rgba(0, 0, 0, 0.70));
+}
+
+
+
+.content-testimonial{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}  
+
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contain-testimonial{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(2%, -50%);
+}
+
+.content-testimonial img{
+  cursor: pointer;
+}
+
+.jeff::after{
+  content: "JEFF FRESHMAN";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 105%;
+    background: #fff;
+    width: 58%;
+    height: 5vh;
+    align-content: center;
+    border-radius: 8px;
+    border: solid rgb(255 193 7) 2px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+footer{
+  background-color: rgb(11, 69, 101);
+}
